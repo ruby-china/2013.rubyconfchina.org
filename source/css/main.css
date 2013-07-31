@@ -434,7 +434,19 @@ a:hover{
 }
 
 
-
+.ad-placeholder {
+  display: inline-block;
+  border: 3px dashed #ddd;
+  width: 320px;
+  height: 74px;
+  font-size: 28px;
+  line-height: 80px;
+  color: #ccc;
+  margin-bottom: 1em;
+}
+.ad-placeholder:hover {
+  border-color: #e5744e;
+}
 
 
 

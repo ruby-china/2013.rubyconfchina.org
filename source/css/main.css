@@ -102,6 +102,7 @@ body {
 
 a {
   color: #2c3035;
+  text-decoration: none;
 }
 a:hover{
   color: #e5744e;
@@ -163,7 +164,7 @@ a:hover{
   margin-bottom: 40px;
 }
 .speakers-list figure {
-  min-height: 270px;
+  min-height: 255px;
 }
 .speakers-list figure img {
   width: 80%;
@@ -183,7 +184,7 @@ a:hover{
 
 .wrap {
   padding: 60px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
   background-color: #F5F5F5;
   background-image: -moz-linear-gradient(top, #EEE 0%, #F5F5F5 15%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEE), color-stop(15%,#F5F5F5));
@@ -198,15 +199,20 @@ a:hover{
   color: #555;
 }
 .wrap header h2 {
-  color: #333;
+  color: #444;
+}
+.wrap > p {
+  color: #888;
+  text-shadow: 1px 1px 0 #fff;
 }
 
 .hero {
   background-color: #2c3035;
-  background-image: url("/img/beijing.png");
+  background-image: url("/img/hero.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center bottom;
   padding: 60px 0 40px 0;
   margin: 0 auto;
   color: white;
@@ -236,10 +242,14 @@ a:hover{
 }
 
 .about > p {
-  max-width: 660px;
+  max-width: 680px;
   margin: 0 auto;
   padding: 0 10px;
   text-align: left;
+  color: #888;
+  font-size: 18px;
+  line-height: 28px;
+  text-shadow: 1px 1px 0 #fff;
 }
 
 .sponsors ul { list-style: none; margin-bottom: 60px; }

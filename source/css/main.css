@@ -157,7 +157,7 @@ a:hover{
   margin: 0;
   padding: 0;
 }
-.speakers-list li { 
+.speakers-list li {
   list-style: none;
   float: left;
   width: 25%;
@@ -253,6 +253,15 @@ a:hover{
   text-shadow: 1px 1px 0 #fff;
 }
 
+.sponsors > p {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 10px;
+  color: #888;
+  font-size: 16px;
+  line-height: 28px;
+  text-shadow: 1px 1px 0 #fff;
+}
 .sponsors ul { list-style: none; margin-bottom: 60px; }
 .sponsors li {
   display: inline;
@@ -261,8 +270,8 @@ a:hover{
 .sponsors li img {
   max-height: 80px;
 }
-.sponsors li h4 { 
-  display: inline; 
+.sponsors li h4 {
+  display: inline;
   display: inline-block;
   color: #a8a8a8;
   font-size: 20px;

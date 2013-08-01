@@ -317,6 +317,7 @@ img { max-width: 100%; }
 
 .footer {
   color: #666;
+  border: none;
   background: #2c3035;
   padding: 80px 0 20px;
 }
@@ -451,8 +452,14 @@ img { max-width: 100%; }
   border-color: #e5744e;
 }
 
-
-
+/* Affix */
+.affix {
+  position: fixed;
+  top: 0;
+  z-index: 1099;
+  width: 100%;
+  background-color: rgba(255,255,255,.95);
+}
 
 
 /* ==========================================================================

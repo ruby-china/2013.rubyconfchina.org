@@ -688,3 +688,16 @@ img { max-width: 100%; }
   }
   .sponsors ul { margin: 0 0 20px; border-top: 1px solid #ddd; }
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    background-image: url("/img/sprite@2x.png");
+    -moz-background-size: 400px 400px;
+    -ie-background-size: 400px 400px;
+    -o-background-size: 400px 400px;
+    -webkit-background-size: 400px 400px;
+    background-size: 400px 400px;
+  }
+}

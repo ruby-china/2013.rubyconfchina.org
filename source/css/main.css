@@ -687,6 +687,7 @@ img { max-width: 100%; }
     max-width: 300px;
   }
   .sponsors ul { margin: 0 0 20px; border-top: 1px solid #ddd; }
+  .hero > figure img { margin-left: auto; }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),

@@ -219,6 +219,7 @@ img { max-width: 100%; }
   color: white;
 }
 .hero > figure { margin-bottom: 55px; padding: 0 10px;}
+.hero > figure img { margin-left: 15px; }
 .hero h1 {
   font-size: 4em;
   line-height: 1.2;
@@ -687,4 +688,18 @@ img { max-width: 100%; }
     max-width: 300px;
   }
   .sponsors ul { margin: 0 0 20px; border-top: 1px solid #ddd; }
+  .hero > figure img { margin-left: auto; }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    background-image: url("/img/sprite@2x.png");
+    -moz-background-size: 400px 400px;
+    -ie-background-size: 400px 400px;
+    -o-background-size: 400px 400px;
+    -webkit-background-size: 400px 400px;
+    background-size: 400px 400px;
+  }
 }

@@ -182,6 +182,12 @@ img { max-width: 100%; }
   color: #777;
   margin: 0;
 }
+.speakers-list p a {
+  color: #777;
+}
+.speakers-list p a:hover {
+  color: #e5744e;
+}
 
 .wrap {
   padding: 60px 10px;

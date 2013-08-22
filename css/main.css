@@ -287,6 +287,9 @@ img { max-width: 100%; }
 .sponsors-platinum li img {
   max-height: 100px;
 }
+.sponsors-bronze li img {
+  max-height: 60px;
+}
 /*.sponsors-platinum li h4 {
   background-color: #f2f2f2;
   color: #bbb;

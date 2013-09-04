@@ -539,7 +539,6 @@ img { max-width: 100%; }
   color: #fff;
   padding: 2em;
   font-size: 1.2em;
-  font-weight: 300;
   line-height: 1.4;
   position: relative;
   border-radius: 5px; }
@@ -548,22 +547,20 @@ img { max-width: 100%; }
   background: #9f8bcc; }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
+  font-weight: normal;
   margin: 0; }
 
 .cbp_tmtimeline > li .cbp_tmlabel p {
-  margin: 8px 0;
-  font-style: italic; }
-
-.cbp_tmtimeline > li .cbp_tmlabel a {
-  color: rgba(0, 0, 0, 0.5);
-  color: #fff; }
+  margin: 8px 0; }
 
 .cbp_tmtimeline > li .cbp_tmlabel a:hover {
-  text-decoration: underline; }
+  color: #fff;
+  color: rgba(255, 255, 255, 0.75); }
 
 .cbp_tmtimeline > li .cbp_tmlabel .speaker-info {
-  color: #d8ceed;
-  color: rgba(255, 255, 255, 0.6);
+  color: #443a59;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
   margin-top: 20px;
   padding: 20px 0 0 0;
   border-top: 1px solid #d8ceed;

@@ -279,7 +279,7 @@ img { max-width: 100%; }
   max-height: 100px;
   max-width: 240px;
 }
-.sponsors li h4 {
+.sponsors h4 {
   display: inline;
   display: inline-block;
   color: #a8a8a8;
@@ -287,7 +287,6 @@ img { max-width: 100%; }
   font-weight: normal;
   position: relative;
   padding: 3px 5px;
-  border-radius: 4px;
   margin: 0;
 }
 .sponsors-platinum li img {
@@ -643,6 +642,42 @@ img { max-width: 100%; }
     left: auto;
     margin: -75px 5px 0 0px; } }
 
+/* Sponsors Details Page */
+#sponsors-details .container {
+  max-width: 1300px;
+}
+#sponsors-details ul, #sponsors-details h4 {
+  text-align: left;
+}
+#sponsors-details h4 {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+#sponsors-details ul li {
+  width: 25%;
+  margin: 0;
+  padding: 20px;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#sponsors-details li > a {
+  display: block;
+  min-height: 80px;
+  vertical-align: bottom;
+}
+#sponsors-details .sponsors-platinum ul li {
+  width: 50%;
+}
+#sponsors-details .sponsors-gold li a {
+  display: block;
+  min-height: 100px;
+}
+#sponsors-details .locomote img { margin-top: 20px; }
+
 
 /* ==========================================================================
    Helper classes
@@ -836,13 +871,21 @@ img { max-width: 100%; }
   .hero { background-size: inherit; }
 }
 
+@media (max-width: 1300px) {
+  #sponsors-details ul li { width: 50%; }
+}
+
 @media (max-width: 960px) {
   .sponsors ul li:first-child { display: block; }
+  #sponsors-details .container { width: 100%; }
+  #sponsors-details .sponsors-platinum ul li { width: 100%; }
+  #sponsors-details ul li:first-child { display: inline-block;}
   .speakers-list li { font-size: .8em; }
 }
 
 @media (max-width: 640px) {
   .global-nav ul li a { font-size: 16px; padding: 5px;}
+  #sponsors-details ul li { max-width: none !important; width: 100%; }
   .speakers-list li { width: 50%; }
   .speakers-list li:nth-child(odd) { clear: left; }
   .venue .address {

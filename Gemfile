@@ -4,3 +4,4 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.0.14"
 gem "middleman-deploy"
+gem "middleman-livereload", :git => "git://github.com/middleman/middleman-livereload.git"

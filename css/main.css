@@ -510,7 +510,7 @@ img { max-width: 100%; }
 
 /* The date/time */
 .cbp_tmtimeline > li .cbp_tmtime {
-  opacity: 0;
+  opacity: 1;
   /*wait for schedule*/
   display: block;
   width: 25%;

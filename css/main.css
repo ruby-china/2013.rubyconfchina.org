@@ -261,6 +261,40 @@ img { max-width: 100%; }
   text-shadow: 1px 1px 0 #fff;
 }
 
+/* schedule table */
+.schedule-table {
+  text-align: left;
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+.schedule-table th {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.schedule-table th small {
+  padding-left: 10px;
+  font-size: 12px;
+  color: #888;
+}
+.schedule-table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+.schedule-table .time {
+  font-size: 13px;
+  width: 100px;
+  color: #888;
+}
+
+.schedule-table .rowspan{
+  width: 16px;
+  font-size: 13px;
+  color: #888;
+}
+
 .sponsors > p {
   max-width: 760px;
   margin: 0 auto;
@@ -681,6 +715,8 @@ img { max-width: 100%; }
    Helper classes
    ========================================================================== */
 
+.align-right { text-align: right; }
+
 /*
  * Image replacement
  */
@@ -879,6 +915,7 @@ img { max-width: 100%; }
   #sponsors-details .sponsors-platinum ul li { width: 100%; }
   #sponsors-details ul li:first-child { display: inline-block;}
   .speakers-list li { font-size: .8em; }
+  .schedule-table { float: none; width: 100%; }
 }
 
 @media (max-width: 640px) {
